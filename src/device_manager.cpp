@@ -141,6 +141,9 @@ static const RapooModelEntry VERIFIED_MODELS[] = {
 
     // 雷柏 VT3 MAX 系列 (实测已验证 - PR #3 by @sAchNMN)
     { L"1417", L"雷柏 VT3 MAX" },
+
+    // 新增：PID 1200 适配
+    { L"1200", L"VT9 Air" },
 };
 
 static void ResolveRapooModelName(const WCHAR* targetPid, WCHAR* outModel, DWORD maxModelLen) {
